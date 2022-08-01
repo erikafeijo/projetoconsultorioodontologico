@@ -1,0 +1,105 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_consultases",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_consultas",
+    "MaxGetRowsCount": 500,
+    "Name": "Consultas_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "{Attachments}": "Attachments",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "new_cliente": "Cliente",
+      "new_consultas_Annotations": "Anotações",
+      "new_consultas_AsyncOperations": "Trabalhos do Sistema",
+      "new_consultas_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "new_consultas_DuplicateBaseRecord": "Registros Duplicados (new_consultas_DuplicateBaseRecord)",
+      "new_consultas_DuplicateMatchingRecord": "Registros Duplicados (new_consultas_DuplicateMatchingRecord)",
+      "new_consultas_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "new_consultas_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "new_consultas_ProcessSession": "Sessões de Processo",
+      "new_consultas_SyncErrors": "Erros de Sincronização",
+      "new_consultasid": "Consultas",
+      "new_consultorio1234": "Consultório (1, 2, 3, 4)",
+      "new_datadaconsulta": "Data da Consulta ",
+      "new_dentista": "Dentista ",
+      "new_name": "Name",
+      "new_tratamento": "Tratamento",
+      "new_valorconsulta": "Valor Consulta",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Consultas_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Consultas_1 (Modos de exibição)",
+    "Name": "_new_consultas_views",
+    "RelatedEntityName": "Consultas_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1b4b5402-038c-4525-8250-cfaabb07026c": "Exibição de Localização Avançada de Consultas",
+      "20cec608-5e41-45bb-b39e-5d1c85e6a8aa": "Consultas Ativos(as)",
+      "61997dfb-aef4-40a4-a823-fd0c072ceba5": "Consultas Inativos(as)",
+      "c6f3a339-4e69-40e4-b9f4-3bc995b77d05": "Exibição Associada de Consultas",
+      "d0e6d939-bc66-4dec-99d5-b50197634ce4": "Exibição de Consulta de Consultas"
+    }
+  },
+  {
+    "DisplayName": "Status (Consultas_1)",
+    "Name": "new_consultas_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Consultas_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Consultas_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Consultas_1)",
+    "Name": "new_consultas_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Consultas_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Consultas_1",
+    "Type": "OptionSetInfo"
+  }
+]

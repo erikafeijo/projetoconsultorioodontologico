@@ -1,0 +1,68 @@
+{
+  "74d2b031-df22-469d-ac8b-544e77122f0b": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "a619063e-ef38-4869-92f8-0bf1a7483a85"
+    ],
+    "id": "74d2b031-df22-469d-ac8b-544e77122f0b"
+  },
+  "a619063e-ef38-4869-92f8-0bf1a7483a85": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-00.brazilsouth.logic.azure.com:443/workflows/a325941bc40e4bd0acbb2fcc7721e43c/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=ob8I7XYR3pNMYm5JQu0zGniwc95g7su2CVnehcNYOZM",
+      "workflowEndpoint": "/subscriptions/5c340b36-e0fa-450e-b6c2-cb7e0327fc56/resourceGroups/e215a1b5fbc043d09ff965afabf1d9b9-ea3beb579df9e6408d04774555ba6dee-env/providers/Microsoft.Logic/workflows/586def60-09b5-56f5-1e9e-17b90eb319da",
+      "workflowEntityId": "a2aed1b6-5311-ed11-b83e-0022483764cd",
+      "workflowName": "586def60-09b5-56f5-1e9e-17b90eb319da",
+      "workflowPath": "/subscriptions/5c340b36-e0fa-450e-b6c2-cb7e0327fc56/resourceGroups/e215a1b5fbc043d09ff965afabf1d9b9-ea3beb579df9e6408d04774555ba6dee-env/providers/Microsoft.Logic/workflows/586def60-09b5-56f5-1e9e-17b90eb319da"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "74d2b031-df22-469d-ac8b-544e77122f0b": {
+          "value": "shared_office365"
+        },
+        "workflowEntityId": {
+          "value": "a2aed1b6-5311-ed11-b83e-0022483764cd"
+        },
+        "workflowName": {
+          "value": "586def60-09b5-56f5-1e9e-17b90eb319da"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "74d2b031-df22-469d-ac8b-544e77122f0b"
+        },
+        "workflowEntityId": {
+          "value": "a2aed1b6-5311-ed11-b83e-0022483764cd"
+        },
+        "workflowName": {
+          "value": "586def60-09b5-56f5-1e9e-17b90eb319da"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "EmailCliente"
+    ],
+    "dependencies": {
+      "shared_office365": "74d2b031-df22-469d-ac8b-544e77122f0b"
+    },
+    "dependents": [],
+    "id": "a619063e-ef38-4869-92f8-0bf1a7483a85"
+  }
+}

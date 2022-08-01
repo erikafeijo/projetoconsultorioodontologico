@@ -1,0 +1,100 @@
+"'pag botões' As screen":
+
+    fundo_tela1 As image:
+        Height: =768
+        Image: ='mainstage-v1-bg'
+        ImagePosition: =ImagePosition.Fill
+        Width: =1366
+        ZIndex: =1
+
+    botão_pacientes As button:
+        Fill: =RGBA(0, 121, 187, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =95
+        OnSelect: =Navigate(Pacientes, Fade)
+        RadiusBottomLeft: =130
+        RadiusBottomRight: =130
+        RadiusTopLeft: =130
+        RadiusTopRight: =130
+        Size: =20
+        Text: ="PACIENTES"
+        Width: =212
+        X: =556
+        Y: =178
+        ZIndex: =2
+
+    botão_dentista As button:
+        Fill: =RGBA(0, 134, 208, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =90
+        OnSelect: =Navigate(Dentistas, Fade)
+        RadiusBottomLeft: =130
+        RadiusBottomRight: =130
+        RadiusTopLeft: =130
+        RadiusTopRight: =130
+        Size: =20
+        Text: ="DENTISTA"
+        Width: =212
+        X: =556
+        Y: =461
+        ZIndex: =3
+
+    botão_consultas As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =95
+        OnSelect: =Navigate(Consultas, Fade)
+        RadiusBottomLeft: =130
+        RadiusBottomRight: =130
+        RadiusTopLeft: =130
+        RadiusTopRight: =130
+        Size: =20
+        Text: ="CONSULTAS"
+        Width: =210
+        X: =558
+        Y: =313
+        ZIndex: =4
+
+    Footer1 As label:
+        Align: =Align.Center
+        Color: =RGBA(230, 230, 230, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =36
+        Size: =18
+        Text: ="Desenvolvido por Erika L. Silva "
+        Width: =1366
+        Y: =731
+        ZIndex: =5
+
+    botão_sair As button:
+        OnSelect: =Navigate(entrar,Fade)
+        RadiusBottomLeft: =130
+        RadiusBottomRight: =130
+        RadiusTopLeft: =130
+        RadiusTopRight: =130
+        Text: ="SAIR"
+        X: =1170
+        Y: =640
+        ZIndex: =6
+
+    home As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =86
+        Size: =20
+        Text: ="HOME"
+        Width: =1366
+        ZIndex: =8
+
+    Image4 As image:
+        Height: =106
+        Image: ='block_2250-m2xjtfhx-350x350'
+        OnSelect: =Navigate(fim,Fade)
+        Width: =180
+        X: =46
+        Y: =610
+        ZIndex: =9
+

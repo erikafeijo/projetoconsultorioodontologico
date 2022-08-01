@@ -1,0 +1,121 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_pacienteses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_pacientes",
+    "MaxGetRowsCount": 500,
+    "Name": "Pacientes_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "{Attachments}": "Attachments",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "new_bairro": "Bairro",
+      "new_celular": "Celular",
+      "new_cep": "CEP",
+      "new_cidade": "Cidade",
+      "new_complemento": "Complemento",
+      "new_cpf": "CPF",
+      "new_datadaultimaconsulta": "Data da Última Consulta",
+      "new_datadenascimento": "Data de Nascimento",
+      "new_email": "E-mail",
+      "new_estado": "Estado",
+      "new_name": "Name",
+      "new_nome": "Nome",
+      "new_numerocasaaptobloco": "número (casa, apto, bloco)",
+      "new_pacientedesde": "Paciente Desde:",
+      "new_pacientes_Annotations": "Anotações",
+      "new_pacientes_AsyncOperations": "Trabalhos do Sistema",
+      "new_pacientes_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "new_pacientes_DuplicateBaseRecord": "Registros Duplicados (new_pacientes_DuplicateBaseRecord)",
+      "new_pacientes_DuplicateMatchingRecord": "Registros Duplicados (new_pacientes_DuplicateMatchingRecord)",
+      "new_pacientes_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "new_pacientes_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "new_pacientes_ProcessSession": "Sessões de Processo",
+      "new_pacientes_SyncErrors": "Erros de Sincronização",
+      "new_pacientesid": "Pacientes",
+      "new_quantconsultas": "Quant. Consultas",
+      "new_quantidadedeconsultas": "Quantidade de Consultas",
+      "new_rg": "RG",
+      "new_rua": "Endereço",
+      "new_telefone": "Telefone ",
+      "new_totalconsultas": "Total Consultas",
+      "new_totaldeconsultasr": "Total de Consultas R$",
+      "new_totaldeconsultasr_date": "Total de Consultas R$ (última atualização em)",
+      "new_totaldeconsultasr_state": "Total de Consultas R$ (Estado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Pacientes_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Pacientes_1 (Modos de exibição)",
+    "Name": "_new_pacientes_views",
+    "RelatedEntityName": "Pacientes_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00615bfb-6cd7-4d83-8a55-d75189a7189d": "Exibição de Localização Avançada de Pacientes",
+      "2ce85b8f-84f8-4320-b3d7-652fbc65390e": "Pacientes Ativos(as)",
+      "55b77143-c7e5-4f15-87d3-dc4437b52325": "Pacientes Inativos(as)",
+      "bfeec4f8-d088-4c9d-8cde-f4f25c4317f2": "Exibição Associada de Pacientes",
+      "d10765d0-ca14-4f2e-89fc-553cfb1c8b9e": "Exibição de Consulta de Pacientes"
+    }
+  },
+  {
+    "DisplayName": "Status (Pacientes_1)",
+    "Name": "new_pacientes_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Pacientes_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Pacientes_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Pacientes_1)",
+    "Name": "new_pacientes_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Pacientes_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Pacientes_1",
+    "Type": "OptionSetInfo"
+  }
+]

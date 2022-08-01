@@ -1,0 +1,40 @@
+entrar As screen:
+    Fill: =RGBA(39, 113, 194, 1)
+
+    fundo_tela As image:
+        Height: =768
+        Image: ='istockphoto-1141062141-612x612'
+        ImagePosition: =ImagePosition.Fill
+        Width: =1366
+        ZIndex: =1
+
+    "'botão entrar' As button":
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =5
+        Fill: =RGBA(9, 33, 98, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =109
+        OnSelect: =Navigate('pag botões', Fade)
+        RadiusBottomLeft: =130
+        RadiusBottomRight: =130
+        RadiusTopLeft: =130
+        RadiusTopRight: =130
+        Size: =25
+        Text: ="ENTRAR"
+        Width: =239
+        X: =584
+        Y: =356
+        ZIndex: =2
+
+    footer0 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =51
+        Size: =18
+        Text: ="Desenvolvido por Erika L. Silva"
+        Width: =1366
+        Y: =716
+        ZIndex: =3
+

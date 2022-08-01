@@ -1,0 +1,104 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_dentistas",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_dentista",
+    "MaxGetRowsCount": 500,
+    "Name": "Dentista",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "{Attachments}": "Attachments",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "new_cpf": "CPF",
+      "new_datadaultimaconsulta": "Data da última consulta",
+      "new_dentista_Annotations": "Anotações",
+      "new_dentista_AsyncOperations": "Trabalhos do Sistema",
+      "new_dentista_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "new_dentista_DuplicateBaseRecord": "Registros Duplicados (new_dentista_DuplicateBaseRecord)",
+      "new_dentista_DuplicateMatchingRecord": "Registros Duplicados (new_dentista_DuplicateMatchingRecord)",
+      "new_dentista_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "new_dentista_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "new_dentista_ProcessSession": "Sessões de Processo",
+      "new_dentista_SyncErrors": "Erros de Sincronização",
+      "new_dentistaid": "Dentista (new_dentistaid)",
+      "new_dentistas": "Dentista (new_dentistas)",
+      "new_name": "Name",
+      "new_nome": "Nome",
+      "new_numerocrosp": "Número CROSP",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Dentista",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Dentista (Modos de exibição)",
+    "Name": "_new_dentista_views",
+    "RelatedEntityName": "Dentista",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "26790eda-e8bf-4a66-af3c-1ef993fc6c28": "Exibição Associada de Dentista",
+      "4663d02a-42bd-4be7-a71f-68af23f2e5ba": "Exibição de Consulta de Dentista",
+      "5f92d2cb-3283-40ae-8d36-51556b16a70a": "Dentista Inativos(as)",
+      "7b56fa0d-c314-44b9-93a4-8fb37076ab67": "Exibição de Localização Avançada de Dentista",
+      "acf9063b-c9d2-4f9f-a1a7-30ee7d1013b5": "Dentista Ativos(as)"
+    }
+  },
+  {
+    "DisplayName": "Status (Dentista)",
+    "Name": "new_dentista_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Dentista"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Dentista",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Dentista)",
+    "Name": "new_dentista_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Dentista"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Dentista",
+    "Type": "OptionSetInfo"
+  }
+]

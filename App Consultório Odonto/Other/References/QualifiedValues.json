@@ -1,0 +1,25 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_new_pacientes_forms",
+      "Namespace": "Pacientes_1 (Formulários)",
+      "Values": {
+        "Informações": "c6d1b6e8-3bb0-455a-be8f-90bbfd8e3530"
+      }
+    },
+    {
+      "Kind": "default.cds_new_consultas_forms",
+      "Namespace": "Consultas_1 (Formulários)",
+      "Values": {
+        "Informações": "f92cb705-3001-4394-ab87-cb9f7d394b58"
+      }
+    },
+    {
+      "Kind": "default.cds_new_dentista_forms",
+      "Namespace": "Dentista (Formulários)",
+      "Values": {
+        "Informações": "dd0fa8ca-ffab-43e4-8545-c93144e7dbd1"
+      }
+    }
+  ]
+}

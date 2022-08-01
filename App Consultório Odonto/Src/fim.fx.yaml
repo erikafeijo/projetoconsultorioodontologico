@@ -1,0 +1,69 @@
+fim As screen:
+
+    Image24 As image:
+        Height: =768
+        Image: ='mainstage-v1-bg'
+        ImagePosition: =ImagePosition.Fill
+        Width: =1366
+        ZIndex: =1
+
+    Label7 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =55
+        Size: =18
+        Text: ="Desenvolvido por Erika L. Silva"
+        Width: =1366
+        Y: =711
+        ZIndex: =2
+
+    PowerBI1 As powerbi:
+        DashboardId: ="9015b0d5-d3e7-413b-a8b5-1f72303e1c24"
+        Height: =552
+        TileUrl: |-
+            ="https://app.powerbi.com/embed?dashboardId=9015b0d5-d3e7-413b-a8b5-1f72303e1c24&tileId=4258e145-358c-4a06-8398-6ad7c7814699&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUJSQVpJTC1TT1VUSC1CLVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7Im1vZGVybkVtYmVkIjpmYWxzZX19"
+        Width: =711
+        WorkspaceId: ="__my-workspace"
+        X: =40
+        Y: =140
+        ZIndex: =3
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =60
+        Size: =20
+        Text: ="RELATÓRIOS"
+        Width: =1366
+        ZIndex: =4
+
+    Button1 As button:
+        Fill: =RGBA(39, 113, 194, 1)
+        OnSelect: =Navigate(entrar,Fade)
+        RadiusBottomLeft: =180
+        RadiusBottomRight: =180
+        RadiusTopLeft: =180
+        RadiusTopRight: =180
+        Size: =20
+        Text: ="SAIR"
+        X: =1170
+        Y: =652
+        ZIndex: =5
+
+    Button2 As button:
+        Fill: =RGBA(39, 113, 194, 1)
+        OnSelect: =Navigate('pag botões', Fade)
+        RadiusBottomLeft: =180
+        RadiusBottomRight: =180
+        RadiusTopLeft: =180
+        RadiusTopRight: =180
+        Size: =20
+        Text: ="HOME"
+        X: =1170
+        Y: =80
+        ZIndex: =6
+
